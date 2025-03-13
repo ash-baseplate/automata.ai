@@ -68,20 +68,6 @@ The application consists of:
 
 ## Development
 
-### Project Structure
-automata-converter/
-├── app.py # Main Streamlit application
-├── src/
-│ ├── python/
-│ │ ├── ai.py # AI-powered diagram analyzer
-│ │ ├── converter.py # Python interface to C++ converter
-│ │ └── visualizer.py # DFA visualization module
-│ └── cpp/
-│ └── converter.cpp # C++ implementation of NFA to DFA conversion
-├── requirements.txt # Python dependencies
-└── .streamlit/
-└── secrets.toml # API keys (not in repository)
-
 ### Contributing
 
 1. Fork the repository
