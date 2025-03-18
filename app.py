@@ -23,8 +23,8 @@ def main():
     - Visualizing the results
     """
     # Set the page configuration with a new title
-    st.set_page_config(page_title="NFA-DFA")  # Updated tab name
-    st.title("Automata Converter")
+    st.set_page_config(page_title="Automata.ai")  # Updated tab name
+    st.title("Automata.ai")
     
     # Initialize session state
     if 'current_step' not in st.session_state:

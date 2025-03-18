@@ -27,8 +27,8 @@ def parse_nfa_description(description):
     data = {}
     transitions = []
     
-    print("Parsing NFA description:")
-    print(description)
+    # print("Parsing NFA description:")
+    # print(description)
     
     i = 0
     try:
@@ -84,8 +84,8 @@ def parse_nfa_description(description):
         cpp_input.extend(transitions)
         
         result = "\n".join(cpp_input)
-        print("\nParsed C++ input:")
-        print(result)
+        # print("\nParsed C++ input:")
+        # print(result)
         return result
         
     except Exception as e:
